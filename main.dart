@@ -41,22 +41,18 @@ class MyApp extends StatelessWidget {
                   color: Colors.black,
                   margin:
                       EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.phone,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.phone,
+                      color: Colors.white,
+                    ),
+                    title: Text(
+                      '+49 176 66624186',
+                      style: TextStyle(
                         color: Colors.white,
+                        fontSize: 15.0,
                       ),
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      Text(
-                        '+49 176 66624186',
-                        style: TextStyle(
-                          color: Colors.white,
-                        ),
-                      ),
-                    ],
+                    ),
                   ),
                 ),
               ),
@@ -66,47 +62,21 @@ class MyApp extends StatelessWidget {
                   color: Colors.black,
                   margin:
                       EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.email,
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.email,
+                      color: Colors.white,
+                    ),
+                    title: Text(
+                      'cel.sehic@gmail.com',
+                      style: TextStyle(
                         color: Colors.white,
+                        fontSize: 15.0,
                       ),
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      Text(
-                        'cel.sehic@gmail.com',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 15.0,
-                        ),
-                      ),
-                    ],
+                    ),
                   ),
                 ),
               ),
-              /*Padding(
-                padding: EdgeInsets.all(10.0),
-                child: Card(
-                  color: Colors.black,
-                  margin:
-                  EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                  child: Row(
-                    children: <Widget>[
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      Text(
-                        '_parua',
-                        style: TextStyle(
-                          color: Colors.white,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),*/
             ],
           ),
         ),
