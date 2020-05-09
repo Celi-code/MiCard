@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
         ),*/
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
@@ -33,6 +34,13 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 20.0,
                   fontFamily: 'Source Sans Pro',
+                ),
+              ),
+              SizedBox(
+                height: 20.0,
+                width: 150.0,
+                child: Divider(
+                  color: Colors.grey.shade800,
                 ),
               ),
               Padding(
